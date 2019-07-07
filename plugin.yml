@@ -1,0 +1,18 @@
+main: thirtyvirus.scm.SubioCraftMenu
+version: 1.0
+name: SubioCraftMenu
+api-version: 1.13
+
+commands:
+  chatalert:
+    description: Gives player an alert with the [sc] prefix. FORMAT /chatalert playerName
+  sc:
+    description: Gives player SubioCraft GUI compass
+  gui:
+    description: Displays SubioCraft GUI
+  safeRestart:
+    description: Restarts server and kicks all players with friendly brb message (STAFF ONLY)
+  sban:
+    description: Makes it easier for staff to ban ppl
+  welcome:
+    description: Welcomes you to server. Automatically runs on first login
