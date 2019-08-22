@@ -119,7 +119,7 @@ public class InventoryClick implements Listener{
 
         //Warps Menu
         if (item.getType() == Material.ENDER_EYE){
-            player.chat("/warps");
+            //player.performCommand("warps");
         }
 
         //Abilities menu
